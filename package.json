@@ -1,0 +1,27 @@
+{
+  "name": "your-minds",
+  "version": "1.0.0",
+  "description": "Show me your opinions",
+  "main": "index.js",
+  "scripts": {
+    "dev":"next",
+    "start":"next start",
+    "build":"next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonRockets/your-minds.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonRockets/your-minds/issues"
+  },
+  "homepage": "https://github.com/TonRockets/your-minds#readme",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
