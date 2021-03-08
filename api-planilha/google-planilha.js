@@ -20,9 +20,9 @@ const usarPlanilha = async () => {
     console.log(folha.title);
 
     //Fazendo um get nos valores das células já carregadas
-    const celulaPromocional = folha.getCell(2, 0)
+    const celulaPromocional = folha.getCell(1, 0)
     console.log(celulaPromocional.value);
-    const infoDaPromocao = folha.getCell(2, 1)
+    const infoDaPromocao = folha.getCell(1, 1)
     console.log(infoDaPromocao.value);
 
 }
