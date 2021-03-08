@@ -1,7 +1,13 @@
 import { GoogleSpreadsheet } from 'google-spreadsheet'
+import moment from 'moment'
 import credencial from '../../credencial.json'
 
 const doc = new GoogleSpreadsheet('1s3cbKCOYwoQ06YMeMPUaItHGWhmYyGOYOOI8uWvWPOI')
+
+const geradorCupom = () => {
+   const code = parseInt(moment().format('YYMMDDHHMMS')).toString(16)
+   return code
+}
 
 export default async (req, res) => {
 
@@ -14,8 +20,11 @@ export default async (req, res) => {
 
         folha.addRow({
             Nome: data.Nome,
-            Whatsapp: data.Whatsapp,
             Email: data.Email,
+            Whatsapp: data.Whatsapp,
+            Nota: 3, 
+            Data: moment().format('DD/MM/YYYY, HH:MM'), 
+            Cupom: geradorCupom(),
             Promo: "10% DESC."
         })
     

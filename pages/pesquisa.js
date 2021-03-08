@@ -6,7 +6,7 @@ const Pesquisa = () => {
     const salvar = async () => {
         console.log("Botão salvar");
         const form = {
-            Nome: "Wellingto Test",
+            Nome: "Wellington Test",
             Email: "test@test.com",
             Whatsapp: "21995599868"
         }
