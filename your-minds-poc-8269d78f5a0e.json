@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "your-minds-poc",
+  "private_key_id": "8269d78f5a0eef25858336feed9e86b0b9cba7a7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwZ7yqmqqvqwZm\nZkM29jum775Dzy04XUUBfddXyiYQ0gGUhEjbegl2rVqp88I6qsfgMhcXtFZCtNYb\n8GD0yn6hhPmk6/xaifr58kEwj1zoO//o555Q/gePlZTcZebQg+F+U/Le2jIhzR1C\nhAHgt/Dv5OkswRy7YuowCESxi9rH9mCa1X9bB0rlcvC93tC86bhf4ub8lMbWwM0u\nfsU9btTXPHKkaE7b9spWOg1Knv1id+tlQePIGKrqIif3DTOY60JWMsJQPC9DB9Pz\nnWLOahObuq/DHxlkVAMkwI7YoOLzwxUEPK0AoHHPO9NWKvgpJBGt5KHZ24OSA07O\ndUSdPs0DAgMBAAECggEABSF8n9EFfjwxC0vAew9DYed0NxWwti8kTCxPAKCCZe0t\nxZY+u5TQ71DlzllRgLz/OO/2svui91K6LYWFfxPgBgOk8ofjRvY0xLin7mklEHjP\nndnAGuagmAEHm4zNNKsOpSAnnsAQQuJr45ziTxkahWe449KEFZaFbZCNVZqrP4id\nxzta0W72CdbkxxQGwENSHMf2iLol1kBZCIjSKlxJ3cRxGaMQIzNXoABaIYMGU0rg\nR/qDL1jI/oHfHDQo86rfs6ku1LvvVJnzQl+rriYrsDyPAEHKA2e4UHyL8vWz74om\nmmWrDlFs/U69jA3FzM/74W6f2viHlJmZEleysbLDOQKBgQDdFeOLDzw4hJmtKv8s\nMJ/wo7pj81HP+MiomBzLCyNxTEw2AwMrBVfojyS9KSusdwo1NmQ8FseF3Oi1MzEF\nHnB98DuU+CtCeAXB4lhXjkclqCwnk8BNd62HIK03PC9rOk+OI3mwBctItxcKheKk\npJXyCQJvVxzJpqOXq66BRe53qQKBgQDMQ4AVLvh4I1kUknmB533Fe6OObRy/QfQ1\nv76ePjsnGYwLMnaEei31USuLYCukxTcbwamAfuQXYX5w2jURYXSySQ/BWtQOOqRB\n+Coy6njy3aeou6dIZTLpTyVkWLC8yij+OGbAi9XbnbhJ7UVebfRYcTjIZnIC2Y4X\n4qJF5UDaywKBgAXKzgRVqNk+OBx+VOMefwI59+cod8tAFFm+anqzVwFf41tC5vFY\nmX4BShAepQNGtyC/xQ6B9kY+jGY66hzdOEtEYPs9KTz7kgMLYA8jLiABcO60g0RE\nT2qL453f2MoxY+Ywbb672CCWk2b2LQLtQPRvYf3yxVFPKVgO6mp+n4nJAoGAIgA2\naNBJwc24fUkoeqwq7l13SzT0bQ2wdeX19+dJ92c0PYTn34Nq9QPO6MNYYHQHiVJC\nQcZdd1reLjDUVpFPWIH64meZFslCIE0L0S/gdCTbTKX34YAe6mEnSz3MJZDNJAwF\nZpWgQo9NZtjdDCvnWXV3SzxqS/kkwusRserIUeMCgYEAwp8MKeXmiDLwAuR1sbzO\nEiMEV0Ehk9SKpVIwoSPS/cRuonTo+FqtUVApr0nr/XQYh8f9Sb+gTCSIhYPMeiUi\nMrupgi3Ve3ynikgtq/23Wm0VN0IMiXBSh9Aql3hCcjaDw8wJYg04DS3jVkrvJYBG\nWd1P4NCFtADTUHyjFY+i8vw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "yourminds-real@your-minds-poc.iam.gserviceaccount.com",
+  "client_id": "118444576789152769218",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/yourminds-real%40your-minds-poc.iam.gserviceaccount.com"
+}
