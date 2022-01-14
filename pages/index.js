@@ -8,7 +8,7 @@ const Index = () => {
     const { data, error } = useSwr('/api/get-promo', fetcher)
     return (
         <div className='h-screen my-10'>
-            <p className='mt-12 text-center'>Deixe sua opinião sobre o Restaurande [Nome-RESTAURANTE]</p>
+            <p className='mt-12 text-center'>HJDIankda fwejpfow nfpwe fkw</p>
             <div className='text-center my-12'>
                 <Link href='/pesquisa'>
                     <a className='bg-blue-400 px-6 py-4 font-bold 
