@@ -1,4 +1,5 @@
 import { GoogleSpreadsheet } from "google-spreadsheet";
+import { regexBase64 } from "../../scripts/converts";
 
 const doc = new GoogleSpreadsheet(process.env.SHEET_ID);
 
@@ -6,7 +7,7 @@ export default async (req, res) => {
   try {
     await doc.useServiceAccountAuth({
       client_email: process.env.SHEET_CLIENT_EMAIL,
-      private_key: process.env.SHEET_PRIVATE_KEY,
+      private_key: regexBase64(process.env.SHEET_PRVT_KEY),
     });
     await doc.loadInfo();
 
