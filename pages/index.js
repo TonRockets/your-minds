@@ -10,7 +10,7 @@ const Index = () => {
   return (
     <div className="h-screen my-10">
       <PageTitle title="Home" />
-      <p className="mt-12 text-center">HJDIankda fwejpfow nfpwe fkw</p>
+      <p className="mt-12 text-center">Gororobas Burger</p>
       <div className="text-center my-12">
         <Link href="/pesquisa">
           <a
