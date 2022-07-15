@@ -26,6 +26,17 @@ const Index = () => {
       {data && data.mostrarCupom && (
         <p className="mt-12 text-center">{data.mensagem}</p>
       )}
+      <div>
+        {/*
+         * TO DO:
+         * Criar botao pra entrar em contato pelo whatsapp
+         *
+         * API:
+         * https://api.whatsapp.com/send?phone=DDDTELEFONE&text=Teste%20de%20Mensagem
+         * */}
+
+        <button>Whatsapp</button>
+      </div>
     </div>
   );
 };
